@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://66666iuymi.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 11:25:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://66666iuymi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mysql 相关知识</title>
+      <link>https://66666iuymi.github.io/post/blog/</link>
+      <pubDate>Fri, 24 May 2019 11:25:07 +0800</pubDate>
+      
+      <guid>https://66666iuymi.github.io/post/blog/</guid>
+      <description>一 含义 mysql5.1版本出现的新特性，本身是一个虚拟表，他的数据来源于表，通过执行时动态生成。 好处： 1. 简化sql语句 2. 提高了sql的重用性 3. 保护基表的数据，提高了安全性
+二 创建 create view 视图名 as 查询语句  三 修改 方式1：
+create or replace view 视图名 as 查询语句  方式2：
+alter view 视图名 as 查询语句  四 删除 drop view 试图1,试图2......  五 查看 desc 视图名; show create view 视图名;  六 使用  插入 修改 删除 查询   注意：视图一般用于查询，不用于增删改，所以具备以下特点的视图不允许更新 1. 包含分组函数，group by ,distinct, having, union 2. join 3.</description>
+    </item>
+    
+  </channel>
+</rss>
